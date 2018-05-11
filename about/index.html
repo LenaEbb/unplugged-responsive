@@ -14,15 +14,23 @@
         <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i" rel="stylesheet">
 
+<link rel="stylesheet" href="../css/fontawesome-all.css">
+
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/main.css">
     </head>
     <body>
-      <header class="main-header">
+      <header class="main-header clearfix">
         <div class="header-wrapper">
            <figure class="logo">
              <a href="#"><img src="../img/logo.png" alt="unplugged logo"></a>
            </figure>
+           <nav>
+                <ul>
+                  <li><a href="#"><i class="fas fa-users"></i>About Us</a></li>
+                  <li><a href="../faqs/index.html"><i class="fas fa-question-circle"></i>FAQs</a></li>
+                </ul>
+              </nav>
          </div>
       </header>
       <main>
@@ -41,6 +49,10 @@
          <li>100 Front Street <br> Brooklyn, NY 11200</li>
        </ul>
    </div>
+   <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.5237222050678!2d-73.9956273844678!3d40.750504479327695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a21fb011c85%3A0x33df10e49762f8e4!2sMadison+Square+Garden!5e0!3m2!1sen!2sus!4v1525989808943" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+   </div>
+
    <div class="mission">
    <h1>Mission Statement</h1>
    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc edet odio.</p>
@@ -48,31 +60,34 @@
 </div>
 <div class="team">
    <h1>Meet the Team</h1>
-     <div class="team-member">
-       <div class="team-img">
-       <img src="../img/jack-smith.png" alt="Jack Smith"/></div>
+
+     <div class="team-member clearfix">
+       <div class="team-img" id="team-img-jack">
+     </div>
        <h2 class="team-name">Jack Smith</h2>
        <p class="team-title">Editor-in-Chief</p>
        <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
      </div>
-       <div class="team-member">
-       <div class="team-img">
-       <img src="../img/lana-walters.png" alt="Lana Walters"/>
+
+       <div class="team-member clearfix">
+       <div class="team-img" id="team-img-lana">
      </div>
        <h2 class="team-name">Lana Walters</h2>
        <p class="team-title">Webmaster</p>
        <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
    </div>
-   <div class="team-member">
-       <div class="team-img">
-       <img src="../img/willow-white.png" alt="Willow White"/>
+
+   <div class="team-member clearfix">
+       <div class="team-img" id="team-img-willow">
      </div>
        <h2 class="team-name">Willow White</h2>
        <p class="team-title">Photographer</p>
        <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
    </div>
 </div>
+
       </main>
+
       <footer>
         <figure class="footer-logo">
           <img src="../img/logo.png" alt="footer logo unplugged">
